@@ -1,11 +1,52 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-.box{
+
+.box {
     width: 100px;
     height: 100px;
     font-size: 30px;
 
+}
+
+.daddy {
+    border: 10px solid black;
+    display: flex;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    height: 20vh;
+}
+
+#one,
+#six {
+    background-color: red;
+
+}
+
+#two,
+#seven {
+    background-color: blue;
+}
+
+#three,
+#eight {
+    background-color: rgb(255, 153, 0);
+}
+
+#four,
+#nine {
+    background-color: pink;
+}
+
+#five,
+#ten {
+    background-color: rgb(238, 255, 0);
+}
+#one{
+    position: relative;
+    left: 20px
+    ;
 }

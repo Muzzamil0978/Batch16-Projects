@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#NevBar {
+    background-color: rgb(56, 10, 131);
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    margin: 18px;
+}
+
+#NevBar1,
+h4 {
+    display: inline;
+}
+
+#NevBar2 {
+    display: inline;
+}
+
+#NevBar3 {
+    display: inline;
+}
+
+.circle {
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 50px;
+    /* background-color: black; */
+    padding: 7px;
+}
+
+.circle:hover {
+    border: 1px solid rgb(41, 134, 240);
+    background-color: rgb(41, 134, 240);
+    transition: 1s ease-in;
+}
+
+@media screen {}
