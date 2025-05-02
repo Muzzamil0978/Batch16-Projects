@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+#nav {
+  width: 100%;
+  height: 550px;
+  background-color: black;
+  color:white;
+}
+#nav #navimg {
+  width: 100%;
+  height: 550px;
+  object-fit: fill;
+  background-repeat: no-repeat;
+  opacity: 0.4;
+  position: absolute;
+
+}
+a {
+  text-decoration: none;
+  color: white;
+  display: inline;
+}
+#navTop {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+  position: relative;
+  height: 10vh;
+}
+#navPart1 {
+}
+#navPart1img {
+  width: 60px;
+}
+#navPart2 {
+  display: flex;
+  justify-content: space-around;
+  gap: 30px;
+
+}
+#navPart3 {
+}
+#navBottom{
+    height: 80vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.border{
+    border: 1px solid black;
+    color: black;
+    background-color: white;
+    border-radius: 5px;
+    padding: 5px;
+}

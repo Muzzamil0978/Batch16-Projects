@@ -22,7 +22,9 @@ a {
 h4 {
     display: inline;
 }
-
+.NevData1{
+     
+}
 #NevBar2 {
     display: inline;
 }
@@ -43,5 +45,3 @@ h4 {
     background-color: rgb(41, 134, 240);
     transition: 1s ease-in;
 }
-
-@media screen {}
